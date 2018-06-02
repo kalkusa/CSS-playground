@@ -6,7 +6,7 @@
 .first {
     width: 4px;
     height: 4px;
-    top: 30%;
+    top: 50%;
     left: 30%;
     position: relative;
     background-color: pink;
@@ -22,6 +22,17 @@
     left: -150px;
     position: absolute;
     background-color: lightskyblue;
+    z-index: 10;
+}
+
+.line {
+    width: 100px;
+    top: -35px;
+    left: -85px;
+    border-top: 2px solid black;
+    position: absolute;
+    transform: rotate(225deg);
+    z-index: 9;
 }
 
 .arrowContainer {
@@ -45,14 +56,14 @@
     /* overflow: hidden; */
 }
 
-.horizontalLineContainer{
-    top:250px;
-    left:221px;
+.horizontalLineContainer {
+    top: 250px;
+    left: 221px;
     position: relative;
 }
 
-.horizontalLine{
-    width:100px;
+.horizontalLine {
+    width: 100px;
     border-top: 2px solid black;
-    transform:rotate(225deg);
+    transform: rotate(225deg);
 }
